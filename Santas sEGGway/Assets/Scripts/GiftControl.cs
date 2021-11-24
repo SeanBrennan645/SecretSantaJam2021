@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GiftControl : MonoBehaviour
 {
-    [SerializeField] float speed;
-    [SerializeField] float sensitivity;
+    public float speed;
+    public float sensitivity;
     [SerializeField] int MaxX = 2;
     [SerializeField] int MaxY = 2;
     [SerializeField] int MinX = 2;

@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class EnemyProfile : ScriptableObject
 {
+    public int maxHealth;
     public int currentHealth;
 
     public Sprite EnemyVisual;

@@ -14,14 +14,14 @@ public enum BattleState
 
 public class TurnHandler : MonoBehaviour
 {
-    [SerializeField] BattleState state;
+    public BattleState state;
 
-    [SerializeField] EnemyProfile[] EnemiesInBattle;
+    public EnemyProfile[] EnemiesInBattle;
     private bool enemyActed;
     private GameObject[] EnemyAttacks;
 
-    [SerializeField] GameObject PlayerUI;
-    [SerializeField] GiftControl PlayerGift;
+    public GameObject PlayerUI;
+    public GiftControl PlayerGift;
 
 
     // Start is called before the first frame update
@@ -34,7 +34,7 @@ public class TurnHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CheckState();
     }
 
     void CheckState()
@@ -51,6 +51,7 @@ public class TurnHandler : MonoBehaviour
         }
         else if(state == BattleState.EnemyTurn)
         {
+            Debug.Log("We here!!!");
             if (EnemiesInBattle.Length <= 0)
             {
                 EnemyFinishedTurn();

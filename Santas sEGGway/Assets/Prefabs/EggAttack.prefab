@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1921767609619313993}
   - component: {fileID: 1921767609619313995}
   - component: {fileID: 1921767609619313992}
+  - component: {fileID: 2659229673119551973}
   m_Layer: 0
   m_Name: Egg (3)
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921767609619314006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.13, y: 1.08, z: 0}
+  m_LocalPosition: {x: 34.52, y: 0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1921767609630029005}
@@ -109,6 +110,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.92, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &2659229673119551973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921767609619314006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd78f32c2160e9e4fb4476a5d1e5a62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 1
 --- !u!1 &1921767609630029002
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +205,7 @@ GameObject:
   - component: {fileID: 1921767609976384454}
   - component: {fileID: 1921767609976384504}
   - component: {fileID: 1921767609976384505}
+  - component: {fileID: 8642791989539179335}
   m_Layer: 0
   m_Name: Egg (5)
   m_TagString: Untagged
@@ -206,7 +221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921767609976384455}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.13, y: -3.96, z: 0}
+  m_LocalPosition: {x: 28.68, y: -3.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1921767609630029005}
@@ -289,6 +304,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.92, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &8642791989539179335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921767609976384455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd78f32c2160e9e4fb4476a5d1e5a62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 1
 --- !u!1 &1921767610599007731
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +328,7 @@ GameObject:
   - component: {fileID: 1921767610599007730}
   - component: {fileID: 1921767610599007732}
   - component: {fileID: 1921767610599007733}
+  - component: {fileID: 6679071135774678775}
   m_Layer: 0
   m_Name: Egg (1)
   m_TagString: Untagged
@@ -315,7 +344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921767610599007731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.17, y: -0.99, z: 0}
+  m_LocalPosition: {x: 21.02, y: 0.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1921767609630029005}
@@ -398,6 +427,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.92, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &6679071135774678775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921767610599007731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd78f32c2160e9e4fb4476a5d1e5a62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 1
 --- !u!1 &1921767610776396893
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +451,7 @@ GameObject:
   - component: {fileID: 1921767610776396892}
   - component: {fileID: 1921767610776396894}
   - component: {fileID: 1921767610776396895}
+  - component: {fileID: 8519924251882520509}
   m_Layer: 0
   m_Name: Egg
   m_TagString: Untagged
@@ -507,6 +550,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.92, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &8519924251882520509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921767610776396893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd78f32c2160e9e4fb4476a5d1e5a62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 0
 --- !u!1 &1921767611457748865
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +574,7 @@ GameObject:
   - component: {fileID: 1921767611457748864}
   - component: {fileID: 1921767611457748866}
   - component: {fileID: 1921767611457748867}
+  - component: {fileID: 1727586459106374755}
   m_Layer: 0
   m_Name: Egg (4)
   m_TagString: Untagged
@@ -533,7 +590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921767611457748865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.13, y: -2.34, z: 0}
+  m_LocalPosition: {x: 28.68, y: -2.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1921767609630029005}
@@ -616,6 +673,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.92, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &1727586459106374755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921767611457748865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd78f32c2160e9e4fb4476a5d1e5a62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 1
 --- !u!1 &1921767611711863587
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,6 +697,7 @@ GameObject:
   - component: {fileID: 1921767611711863586}
   - component: {fileID: 1921767611711863588}
   - component: {fileID: 1921767611711863589}
+  - component: {fileID: 169589892848954613}
   m_Layer: 0
   m_Name: Egg (2)
   m_TagString: Untagged
@@ -642,7 +713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921767611711863587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.73, y: -4.05, z: 0}
+  m_LocalPosition: {x: 20.29, y: -1.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1921767609630029005}
@@ -725,3 +796,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.92, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &169589892848954613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921767611711863587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd78f32c2160e9e4fb4476a5d1e5a62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 1

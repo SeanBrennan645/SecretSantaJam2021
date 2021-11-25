@@ -8,6 +8,7 @@ public class EnemyAttackHazard : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("This Working???");
         if(collision.GetComponent<PlayerHealth>())
         {
             collision.GetComponent<PlayerHealth>().TakeDamage(Damage);

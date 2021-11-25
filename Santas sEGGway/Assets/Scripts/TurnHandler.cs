@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum BattleState
 {
@@ -18,10 +19,13 @@ public class TurnHandler : MonoBehaviour
 
     public EnemyProfile[] EnemiesInBattle;
     private bool enemyActed;
+    private int enemyMaxHealth;
+    private int enemyHealthPercent;
     private GameObject[] EnemyAttacks;
 
     public GameObject PlayerUI;
     public GiftControl PlayerGift;
+    public Text enemyHealthPercentText;
 
 
     // Start is called before the first frame update
@@ -29,6 +33,8 @@ public class TurnHandler : MonoBehaviour
     {
         state = BattleState.Start;
         enemyActed = false;
+        enemyMaxHealth = EnemiesInBattle[0].maxHealth; //not best practice but this will only ever have one enemy per battle for this jam
+        GetEnemyHealthPercent();
     }
 
     // Update is called once per frame
@@ -51,7 +57,6 @@ public class TurnHandler : MonoBehaviour
         }
         else if(state == BattleState.EnemyTurn)
         {
-            Debug.Log("We here!!!");
             if (EnemiesInBattle.Length <= 0)
             {
                 EnemyFinishedTurn();
@@ -112,7 +117,25 @@ public class TurnHandler : MonoBehaviour
 
     public void PlayerAct()
     {
-        //bring up menu for player
+
+        PlayerFinishTurn();
+    }
+
+    public void PlayerAttack()
+    {
+        foreach(EnemyProfile enemy in EnemiesInBattle)
+        {
+            enemy.TakeDamage(PlayerGift.attackDamage);
+        }
+
+        GetEnemyHealthPercent();
+
+        PlayerFinishTurn();
+    }
+
+    public void PlayerHeal()
+    {
+        PlayerGift.GetComponent<PlayerHealth>().Heal();
 
         PlayerFinishTurn();
     }
@@ -133,5 +156,13 @@ public class TurnHandler : MonoBehaviour
 
         enemyActed = false;
         state = BattleState.FinishedTurn;
+    }
+
+    private void GetEnemyHealthPercent()
+    {
+        enemyHealthPercent = EnemiesInBattle[0].currentHealth / enemyMaxHealth;
+        Debug.Log(enemyHealthPercent);
+        Debug.Log(enemyMaxHealth);
+        enemyHealthPercentText.text = enemyHealthPercent.ToString();
     }
 }

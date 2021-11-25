@@ -6,6 +6,7 @@ public class GiftControl : MonoBehaviour
 {
     public float speed;
     public float sensitivity;
+    public int attackDamage = 1;
     [SerializeField] int MaxX = 2;
     [SerializeField] int MaxY = 2;
     [SerializeField] int MinX = 2;

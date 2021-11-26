@@ -1465,7 +1465,9 @@ MonoBehaviour:
   state: 0
   EnemiesInBattle:
   - {fileID: 11400000, guid: 07884749918a4dc428387cda07c72671, type: 2}
-  PlayerUI: {fileID: 393619583}
+  PlayerUI:
+  - {fileID: 393619583}
+  - {fileID: 156477827}
   PlayerGift: {fileID: 171174700}
   enemyHealthPercentText: {fileID: 639474818}
 --- !u!1 &1423430256

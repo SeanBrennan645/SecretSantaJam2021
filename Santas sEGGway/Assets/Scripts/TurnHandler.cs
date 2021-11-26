@@ -20,10 +20,10 @@ public class TurnHandler : MonoBehaviour
     public EnemyProfile[] EnemiesInBattle;
     private bool enemyActed;
     private int enemyMaxHealth;
-    private int enemyHealthPercent;
+    private float enemyHealthPercent;
     private GameObject[] EnemyAttacks;
 
-    public GameObject PlayerUI;
+    public GameObject[] PlayerUI;
     public GiftControl PlayerGift;
     public Text enemyHealthPercentText;
 
@@ -48,7 +48,10 @@ public class TurnHandler : MonoBehaviour
         if(state ==BattleState.Start)
         {
             //setup the level
-            PlayerUI.SetActive(true);
+            foreach (GameObject UIElement in PlayerUI)
+            {
+                UIElement.SetActive(true);
+            }
             state = BattleState.PlayerTurn;
         }
         else if(state == BattleState.PlayerTurn)
@@ -142,7 +145,10 @@ public class TurnHandler : MonoBehaviour
 
     private void PlayerFinishTurn()
     {
-        PlayerUI.SetActive(false);
+        foreach (GameObject UIElement in PlayerUI)
+        {
+            UIElement.SetActive(false);
+        }
         state = BattleState.EnemyTurn;
     }
 
@@ -157,12 +163,15 @@ public class TurnHandler : MonoBehaviour
         enemyActed = false;
         state = BattleState.FinishedTurn;
     }
-
+    
     private void GetEnemyHealthPercent()
     {
-        enemyHealthPercent = EnemiesInBattle[0].currentHealth / enemyMaxHealth;
+        Debug.Log(EnemiesInBattle[0].currentHealth);
+        enemyHealthPercent = (float)EnemiesInBattle[0].currentHealth / (float)enemyMaxHealth;
         Debug.Log(enemyHealthPercent);
-        Debug.Log(enemyMaxHealth);
+        enemyHealthPercent = enemyHealthPercent * 100.0f;
+        Debug.Log(enemyHealthPercent);
+        //Debug.Log(enemyMaxHealth);
         enemyHealthPercentText.text = enemyHealthPercent.ToString();
     }
 }

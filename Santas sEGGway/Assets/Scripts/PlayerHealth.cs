@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int healAmount;
     public int currentHealth;
     public int maxHealth;
+    public bool isDead = false;
     public Text text;
     private int damageMultiplier = 1;
 
@@ -37,5 +38,6 @@ public class PlayerHealth : MonoBehaviour
     void Death()
     {
         Debug.Log("Player has died!!!");
+        isDead = true;
     }
 }

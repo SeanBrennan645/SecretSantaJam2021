@@ -27,12 +27,19 @@ public class TurnHandler : MonoBehaviour
     public GiftControl PlayerGift;
     public Text enemyHealthPercentText;
 
+    [SerializeField] SceneChanger sceneChanger;
+
 
     // Start is called before the first frame update
     void Start()
     {
         state = BattleState.Start;
         enemyActed = false;
+        foreach(EnemyProfile enemy in EnemiesInBattle)
+        {
+            enemy.currentHealth = enemy.maxHealth;
+            enemy.isDead = false;
+        }
         enemyMaxHealth = EnemiesInBattle[0].maxHealth; //not best practice but this will only ever have one enemy per battle for this jam
         GetEnemyHealthPercent();
     }
@@ -57,6 +64,7 @@ public class TurnHandler : MonoBehaviour
         else if(state == BattleState.PlayerTurn)
         {
             //player either attacks or heals
+            //TODO change check for enemy dead here!!!
         }
         else if(state == BattleState.EnemyTurn)
         {
@@ -101,20 +109,31 @@ public class TurnHandler : MonoBehaviour
         {
             PlayerGift.gameObject.SetActive(false);
 
-            if(PlayerGift.GetComponent<PlayerHealth>().currentHealth <= 0)
+            if(PlayerGift.GetComponent<PlayerHealth>().isDead)
             {
                 state = BattleState.Lost;
             }
             else
             {
-                //if enemy is dead
-
-                state = BattleState.Start;
+                if (EnemiesInBattle[0].isDead) //direct index reference not best practice but ok for this atm
+                {
+                    state = BattleState.Won;
+                }
+                else
+                {
+                    state = BattleState.Start;
+                }
             }
         }
-        else if (state ==BattleState.Won)
+        else if (state == BattleState.Won)
         {
-
+            Debug.Log("Player Won!!");
+            //sceneChanger.LoadNextScene();
+        }
+        else if (state == BattleState.Lost)
+        {
+            Debug.Log("Player Lost!!!");
+            //sceneChanger.LoadPreviousScene();
         }
     }
 
@@ -143,6 +162,11 @@ public class TurnHandler : MonoBehaviour
         PlayerFinishTurn();
     }
 
+    public void PlayerQuitGame()
+    {
+        //TODO create class that can be reused in menus and here
+    }
+
     private void PlayerFinishTurn()
     {
         foreach (GameObject UIElement in PlayerUI)
@@ -166,11 +190,11 @@ public class TurnHandler : MonoBehaviour
     
     private void GetEnemyHealthPercent()
     {
-        Debug.Log(EnemiesInBattle[0].currentHealth);
+        //Debug.Log(EnemiesInBattle[0].currentHealth);
         enemyHealthPercent = (float)EnemiesInBattle[0].currentHealth / (float)enemyMaxHealth;
-        Debug.Log(enemyHealthPercent);
+        //Debug.Log(enemyHealthPercent);
         enemyHealthPercent = enemyHealthPercent * 100.0f;
-        Debug.Log(enemyHealthPercent);
+        //Debug.Log(enemyHealthPercent);
         //Debug.Log(enemyMaxHealth);
         enemyHealthPercentText.text = enemyHealthPercent.ToString();
     }

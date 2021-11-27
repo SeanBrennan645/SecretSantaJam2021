@@ -18,6 +18,7 @@ public class EnemyProfile : ScriptableObject
 
         if(currentHealth <= 0)
         {
+            currentHealth = 0;
             isDead = true;
         }
     }

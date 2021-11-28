@@ -17,15 +17,34 @@ namespace DialogueSystem
         //[SerializeField] private float delayBetweenLines;
 
         private Text textHolder;
+        private IEnumerator lineAppear;
 
-        private void Awake()
+        private void OnEnable()
         {
-            textHolder = GetComponent<Text>();
+            ResetLine();
+            lineAppear = WriteText(input, textHolder, delay);
+            StartCoroutine(lineAppear);
         }
 
-        private void Start()
+        private void Update()
         {
-            StartCoroutine(WriteText(input, textHolder, delay));
+            if(Input.GetKeyDown(KeyCode.C))
+            {
+                if (textHolder.text != input)
+                {
+                    StopCoroutine(lineAppear);
+                    textHolder.text = input;                  
+                }
+                else
+                    isFinished = true;
+            }
+        }
+
+        private void ResetLine()
+        {
+            textHolder = GetComponent<Text>();
+            textHolder.text = "";
+            isFinished = false;
         }
     }
 

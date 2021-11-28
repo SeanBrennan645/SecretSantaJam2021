@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
+    private NPCController NPC = null;
+
     // Update is called once per frame
     void Update()
     {
@@ -23,6 +25,36 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidbody.MovePosition(rigidbody.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (!inDialogue())
+        {
+            rigidbody.MovePosition(rigidbody.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
+    }
+
+    private bool inDialogue()
+    {
+        if (NPC != null)
+        {
+            return NPC.DialogueActive();
+        }
+        else
+            return false;
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "NPC")
+        {
+            NPC = collision.gameObject.GetComponent<NPCController>();
+            if (Input.GetKey(KeyCode.Space)) // should change to a check within update
+            {
+                NPC.ActivateDialogue();
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        NPC = null;
     }
 }

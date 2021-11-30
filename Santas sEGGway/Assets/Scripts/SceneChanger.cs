@@ -20,4 +20,10 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(PreviousScene);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+            LoadNextScene();
+    }
 }

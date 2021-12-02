@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
 
     private NPCController NPC = null;
+    private Button button = null;
 
     // Update is called once per frame
     void Update()
@@ -50,6 +51,17 @@ public class PlayerMovement : MonoBehaviour
             {
                 NPC.ActivateDialogue();
             }
+        }
+        if(collision.tag == "Button")
+        {
+            button = collision.gameObject.GetComponent<Button>();
+            NPC = collision.gameObject.GetComponent<NPCController>();
+            if (Input.GetKey(KeyCode.Space))
+            {
+                button.PressButton();
+                NPC.ActivateDialogue();
+            }
+            button = null;
         }
     }
 

@@ -1396,6 +1396,7 @@ GameObject:
   - component: {fileID: 1402853705}
   - component: {fileID: 1402853704}
   - component: {fileID: 1402853707}
+  - component: {fileID: 1402853708}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: GameManager
@@ -1471,7 +1472,22 @@ MonoBehaviour:
   - {fileID: 156477827}
   PlayerGift: {fileID: 171174700}
   enemyHealthPercentText: {fileID: 639474818}
-  sceneChanger: {fileID: 0}
+  sceneChanger: {fileID: 1402853708}
+--- !u!114 &1402853708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402853703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d75f6dcedbe3a42a1ff72408c45ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToChangeTo: AreaTwoScene
+  CurrentScene: BattleScene
+  PreviousScene: AreaOneScene
 --- !u!1 &1423430256
 GameObject:
   m_ObjectHideFlags: 0

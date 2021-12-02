@@ -128,12 +128,12 @@ public class TurnHandler : MonoBehaviour
         else if (state == BattleState.Won)
         {
             Debug.Log("Player Won!!");
-            //sceneChanger.LoadNextScene();
+            sceneChanger.LoadNextScene();
         }
         else if (state == BattleState.Lost)
         {
             Debug.Log("Player Lost!!!");
-            //sceneChanger.LoadPreviousScene();
+            sceneChanger.LoadPreviousScene();
         }
     }
 

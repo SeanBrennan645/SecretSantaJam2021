@@ -13,6 +13,7 @@ public class EnemyTurnHandler : MonoBehaviour
         FinishedTurn = false;
 
         int attackNum = Random.Range(0, AttackAmounts);
+        //Debug.Log("AttackDex is " + attackNum);
         GetComponent<Animator>().SetInteger("AttackDex", attackNum);
     }
 

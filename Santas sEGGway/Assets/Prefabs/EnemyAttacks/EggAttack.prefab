@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FinishedTurn: 0
-  AttackAmounts: 0
+  AttackAmounts: 2
 --- !u!1 &1921767609976384455
 GameObject:
   m_ObjectHideFlags: 0

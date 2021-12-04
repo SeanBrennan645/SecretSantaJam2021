@@ -155,6 +155,9 @@ RectTransform:
   m_Children:
   - {fileID: 380873860}
   - {fileID: 1308019691}
+  - {fileID: 1740283944}
+  - {fileID: 543153523}
+  - {fileID: 427567889}
   m_Father: {fileID: 1668797964}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -245,6 +248,7 @@ RectTransform:
   m_Children:
   - {fileID: 1508378693}
   - {fileID: 869128917}
+  - {fileID: 1148297898}
   m_Father: {fileID: 1668797964}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -358,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: I had to take out another mortage to pay for gifts
+  input: That second secret button better be round here somewhere!
   delay: 0.05
 --- !u!114 &83412775
 MonoBehaviour:
@@ -566,7 +570,7 @@ PrefabInstance:
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 2059909365}
+      objectReference: {fileID: 520574641}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
 --- !u!1 &126592463
@@ -619,7 +623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: I had to take out another mortage to pay for gifts
+  input: Although someone messed up the design for the clue for the first one
   delay: 0.05
 --- !u!114 &126592466
 MonoBehaviour:
@@ -807,7 +811,7 @@ PrefabInstance:
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 1106401177}
+      objectReference: {fileID: 356885740}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
 --- !u!1 &302764659
@@ -860,7 +864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: But at least I got my cousin a new coffee maker!
+  input: The real secret button is the last one in the line
   delay: 0.05
 --- !u!114 &302764662
 MonoBehaviour:
@@ -954,7 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Aren't the holidays a wonderful time of year!
+  input: You rumaged through the trash can in search of a button
   delay: 0.05
 --- !u!114 &332676809
 MonoBehaviour:
@@ -1217,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: I sure am a button!
+  input: You firmly pressed the man.......... *CLICK!*
   delay: 0.05
 --- !u!114 &380873862
 MonoBehaviour:
@@ -1260,6 +1264,100 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380873859}
+  m_CullTransparentMesh: 0
+--- !u!1 &427567888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 427567889}
+  - component: {fileID: 427567892}
+  - component: {fileID: 427567891}
+  - component: {fileID: 427567890}
+  m_Layer: 0
+  m_Name: Line5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &427567889
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427567888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7526655}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &427567890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427567888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: This was a very lazy joke
+  delay: 0.05
+--- !u!114 &427567891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427567888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &427567892
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427567888}
   m_CullTransparentMesh: 0
 --- !u!1 &438852098
 GameObject:
@@ -1393,7 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: The shelves are well stocked with a variety of foods!
+  input: Our parents told us to wait here so we could go see Santa!
   delay: 0.05
 --- !u!114 &449806014
 MonoBehaviour:
@@ -1569,7 +1667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: But at least I got my cousin a new coffee maker!
+  input: Garbage! Glorious stinking garbage! But no button
   delay: 0.05
 --- !u!114 &470322163
 MonoBehaviour:
@@ -1844,8 +1942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Enter the next room and we''ll yolk it out to see if you deserve
-    to continue'
+  input: 'EggNog: ............... EGGNOG!'
   delay: 0.05
 --- !u!114 &487107093
 MonoBehaviour:
@@ -2094,7 +2191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: What''s that kid you''re after eggs?!?'
+  input: 'EggNog: EGGNOG EGGNOG EGGNOG EGGNOG'
   delay: 0.05
 --- !u!114 &526632562
 MonoBehaviour:
@@ -2137,6 +2234,100 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526632559}
+  m_CullTransparentMesh: 0
+--- !u!1 &543153522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543153523}
+  - component: {fileID: 543153526}
+  - component: {fileID: 543153525}
+  - component: {fileID: 543153524}
+  m_Layer: 0
+  m_Name: Line4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &543153523
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543153522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7526655}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &543153524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543153522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: .........
+  delay: 0.05
+--- !u!114 &543153525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543153522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &543153526
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543153522}
   m_CullTransparentMesh: 0
 --- !u!1 &616278266
 GameObject:
@@ -2476,7 +2667,7 @@ PrefabInstance:
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 2059909365}
+      objectReference: {fileID: 1775558666}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
 --- !u!1 &774364086 stripped
@@ -2595,6 +2786,100 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797112016}
+  m_CullTransparentMesh: 0
+--- !u!1 &797829324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797829325}
+  - component: {fileID: 797829328}
+  - component: {fileID: 797829327}
+  - component: {fileID: 797829326}
+  m_Layer: 0
+  m_Name: Line3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &797829325
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797829324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1775558667}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &797829326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797829324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: I heard that it's hidden somewhere in trash!
+  delay: 0.05
+--- !u!114 &797829327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797829324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &797829328
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797829324}
   m_CullTransparentMesh: 0
 --- !u!1 &836684423
 GameObject:
@@ -3052,7 +3337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Aren't the holidays a wonderful time of year!
+  input: Man this place stinks like rotten eggs!
   delay: 0.05
 --- !u!114 &937689724
 MonoBehaviour:
@@ -3349,7 +3634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: What''s that kid you''re after eggs?!?'
+  input: 'EggBert: Eggscellent job kid you beat me'
   delay: 0.05
 --- !u!114 &1055632749
 MonoBehaviour:
@@ -3483,6 +3768,100 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106401177}
+  m_CullTransparentMesh: 0
+--- !u!1 &1148297897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1148297898}
+  - component: {fileID: 1148297901}
+  - component: {fileID: 1148297900}
+  - component: {fileID: 1148297899}
+  m_Layer: 0
+  m_Name: Line3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1148297898
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148297897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 52439385}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1148297899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148297897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: You pressed one of the secret buttons!!!
+  delay: 0.05
+--- !u!114 &1148297900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148297897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1148297901
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148297897}
   m_CullTransparentMesh: 0
 --- !u!4 &1159778537 stripped
 Transform:
@@ -3865,7 +4244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Who loves being pressed ;)
+  input: Haha you found the button!
   delay: 0.05
 --- !u!114 &1308019693
 MonoBehaviour:
@@ -4270,7 +4649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Aren't the holidays a wonderful time of year!
+  input: I helped put together the secret buttons
   delay: 0.05
 --- !u!114 &1567724725
 MonoBehaviour:
@@ -4572,7 +4951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Well you''ll hafta go through some eggstreme PUNishment first!'
+  input: 'EggBert: Although you''ll hafta go a bit further to find your eggs'
   delay: 0.05
 --- !u!114 &1642827316
 MonoBehaviour:
@@ -4753,7 +5132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: I had to take out another mortage to pay for gifts
+  input: And managed to find...
   delay: 0.05
 --- !u!114 &1692066392
 MonoBehaviour:
@@ -4863,7 +5242,7 @@ PrefabInstance:
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 52439384}
+      objectReference: {fileID: 7526654}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
 --- !u!1 &1702234581
@@ -5449,17 +5828,29 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208130, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1df50e357eea81143859da7ee96f736a, type: 3}
     - target: {fileID: 8793534502911208131, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_Name
       value: Eggbert
       objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_Size.x
-      value: 4.68
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_Size.y
-      value: 5.45
+      value: 3.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5505,12 +5896,130 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 1106401177}
+    - target: {fileID: 8793534502911208143, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208143, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208143, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Size.x
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208143, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.82
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+--- !u!1 &1740283943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740283944}
+  - component: {fileID: 1740283947}
+  - component: {fileID: 1740283946}
+  - component: {fileID: 1740283945}
+  m_Layer: 0
+  m_Name: Line3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1740283944
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740283943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7526655}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1740283945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740283943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: Get it because it was hidden in trash and I'm trash!!
+  delay: 0.05
+--- !u!114 &1740283946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740283943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1740283947
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740283943}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1746437275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5713,7 +6222,7 @@ RectTransform:
   m_Children:
   - {fileID: 937689722}
   - {fileID: 83412773}
-  - {fileID: 1795573781}
+  - {fileID: 797829325}
   m_Father: {fileID: 1668797964}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5936,100 +6445,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1795573780
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1795573781}
-  - component: {fileID: 1795573784}
-  - component: {fileID: 1795573783}
-  - component: {fileID: 1795573782}
-  m_Layer: 0
-  m_Name: Line3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1795573781
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795573780}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1775558667}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6, y: -7.9055}
-  m_SizeDelta: {x: 791.1163, y: 175.82327}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1795573782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795573780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: But at least I got my cousin a new coffee maker!
-  delay: 0.05
---- !u!114 &1795573783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795573780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 56
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1795573784
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795573780}
-  m_CullTransparentMesh: 0
 --- !u!1 &1895081048
 GameObject:
   m_ObjectHideFlags: 0
@@ -6080,7 +6495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: The shelves are well stocked with a variety of foods!
+  input: The shelves are not well stocked with a variety of foods!
   delay: 0.05
 --- !u!114 &1895081051
 MonoBehaviour:
@@ -6343,7 +6758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Well, cardboard cutouts of food
+  input: But it feels like we're just standing here to act as a roadblock
   delay: 0.05
 --- !u!114 &1949604916
 MonoBehaviour:
@@ -6437,7 +6852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Well, cardboard cutouts of food
+  input: And are just cardboard cutouts!
   delay: 0.05
 --- !u!114 &2000466561
 MonoBehaviour:
@@ -6531,7 +6946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Well you''ll hafta go through some eggstreme PUNishment first!'
+  input: 'EggNog: EGGNOG EGGNOG FIGHT EGGNOG'
   delay: 0.05
 --- !u!114 &2010679839
 MonoBehaviour:
@@ -6888,8 +7303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Enter the next room and we''ll yolk it out to see if you deserve
-    to continue'
+  input: 'EggBert: Also if you wanna see Santa I heard you gotta find 2 secret buttons'
   delay: 0.05
 --- !u!114 &2088149781
 MonoBehaviour:

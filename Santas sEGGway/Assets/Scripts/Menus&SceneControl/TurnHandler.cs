@@ -72,6 +72,10 @@ public class TurnHandler : MonoBehaviour
             {
                 EnemyFinishedTurn();
             }
+            if (EnemiesInBattle[0].isDead) //direct index reference not best practice but ok for this atm
+            {
+                state = BattleState.Won;
+            }
             else if (!enemyActed)
             {
                 PlayerGift.gameObject.SetActive(true);
@@ -115,14 +119,7 @@ public class TurnHandler : MonoBehaviour
             }
             else
             {
-                if (EnemiesInBattle[0].isDead) //direct index reference not best practice but ok for this atm
-                {
-                    state = BattleState.Won;
-                }
-                else
-                {
-                    state = BattleState.Start;
-                }
+                state = BattleState.Start;
             }
         }
         else if (state == BattleState.Won)

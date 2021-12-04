@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= Damage * damageMultiplier;
         text.text = currentHealth.ToString();
 
-        if (currentHealth <=0)
+        if (currentHealth <= 0)
         {
             currentHealth = 0;
             Death();

@@ -402,7 +402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   sensitivity: 5
-  attackDamage: 5
+  attackDamage: 2
   MaxX: 80
   MaxY: 75
   MinX: -80
@@ -1849,6 +1849,10 @@ PrefabInstance:
     - target: {fileID: 1921767611711863586, guid: ddffb1ad2f264b04e972dbec050a5527, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921767611711863586, guid: ddffb1ad2f264b04e972dbec050a5527, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.56
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddffb1ad2f264b04e972dbec050a5527, type: 3}

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4037a73a4c71eeb43be0673b7944bb17, type: 3}
   m_Name: EggNog
   m_EditorClassIdentifier: 
-  maxHealth: 14
-  currentHealth: 0
-  isDead: 1
+  maxHealth: 20
+  currentHealth: 8
+  isDead: 0
   EnemyVisual: {fileID: 0}
   EnemiesAttacks:
   - {fileID: 981079804123362593, guid: 6b1aed6c96188d94c89b1ffadd287d13, type: 3}
+  - {fileID: 1921767609630029002, guid: ddffb1ad2f264b04e972dbec050a5527, type: 3}

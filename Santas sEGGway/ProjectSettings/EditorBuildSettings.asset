@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OverworldAreas/BonusAreaScene.unity
     guid: b10cddb6401fc074ea61e4ef8140c600
+  - enabled: 1
+    path: Assets/Scenes/BattleScenes/EggFryBattle.unity
+    guid: 581820a53b1e3e0448b2646ff7c096ea
+  - enabled: 1
+    path: Assets/Scenes/BattleScenes/EggNogBattle.unity
+    guid: 80495122750891c4e97c9944aea9b71c
+  - enabled: 1
+    path: Assets/Scenes/OverworldAreas/AreaThreeScene.unity
+    guid: 8dc7b209d37023c41b7c08c66b67ae78
+  - enabled: 1
+    path: Assets/Scenes/OverworldAreas/FinalAreaScene.unity
+    guid: 24996a081162f9d4a81eef219ea25d53
   m_configObjects: {}

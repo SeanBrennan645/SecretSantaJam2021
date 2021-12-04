@@ -85,7 +85,7 @@ public class TurnHandler : MonoBehaviour
                 {
                     int AttackNum = Random.Range(0, enemy.EnemiesAttacks.Length);
 
-                    Instantiate(enemy.EnemiesAttacks[AttackNum], Vector2.zero, Quaternion.identity);
+                    Instantiate(enemy.EnemiesAttacks[AttackNum]);
                 }
 
                 EnemyAttacks = GameObject.FindGameObjectsWithTag("Enemy");

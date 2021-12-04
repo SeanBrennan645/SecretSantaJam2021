@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d75f6dcedbe3a42a1ff72408c45ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToChangeTo: BattleScene
+  SceneToChangeTo: EggFryBattle
   CurrentScene: AreaTwoScene
   PreviousScene: 
 --- !u!4 &375685489

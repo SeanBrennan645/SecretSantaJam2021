@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4037a73a4c71eeb43be0673b7944bb17, type: 3}
+  m_Name: EggFry
+  m_EditorClassIdentifier: 
+  maxHealth: 20
+  currentHealth: 20
+  isDead: 0
+  EnemyVisual: {fileID: 0}
+  EnemiesAttacks:
+  - {fileID: 1921767609630029002, guid: ddffb1ad2f264b04e972dbec050a5527, type: 3}
+  - {fileID: 981079804123362593, guid: 6b1aed6c96188d94c89b1ffadd287d13, type: 3}
+  - {fileID: 3663025990354818591, guid: 5460f5050fb1df842ba9c14b6cdfa9d6, type: 3}

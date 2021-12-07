@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OverworldAreas/FinalAreaScene.unity
     guid: 24996a081162f9d4a81eef219ea25d53
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 177653a49a46a9840922a6d2f2418d17
   m_configObjects: {}

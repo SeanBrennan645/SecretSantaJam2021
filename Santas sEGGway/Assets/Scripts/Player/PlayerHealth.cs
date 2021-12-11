@@ -31,8 +31,13 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-        damageMultiplier++;
+        damageMultiplier = 2;
         text.text = currentHealth.ToString();
+    }
+
+    public void ResetMultiplier()
+    {
+        damageMultiplier = 1;
     }
 
     void Death()

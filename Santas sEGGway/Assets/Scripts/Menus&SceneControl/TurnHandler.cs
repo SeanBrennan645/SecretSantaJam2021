@@ -143,6 +143,7 @@ public class TurnHandler : MonoBehaviour
 
     public void PlayerAttack()
     {
+        PlayerGift.GetComponent<PlayerHealth>().ResetMultiplier(); // not very efficient
         foreach(EnemyProfile enemy in EnemiesInBattle)
         {
             enemy.TakeDamage(PlayerGift.attackDamage);

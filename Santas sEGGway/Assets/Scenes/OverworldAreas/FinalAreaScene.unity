@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: What''s that kid you''re after eggs?!?'
+  input: 'EggBert: Hey kid glad you made it through ok!'
   delay: 0.05
 --- !u!114 &30872452
 MonoBehaviour:
@@ -299,100 +299,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &79518439
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 79518440}
-  - component: {fileID: 79518443}
-  - component: {fileID: 79518442}
-  - component: {fileID: 79518441}
-  m_Layer: 0
-  m_Name: Line5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &79518440
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79518439}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1651443728}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6, y: -7.9055}
-  m_SizeDelta: {x: 791.1163, y: 175.82327}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &79518441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79518439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: 'Experience the joy of being a child again: $5,000'
-  delay: 0.05
---- !u!114 &79518442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79518439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 56
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &79518443
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79518439}
-  m_CullTransparentMesh: 0
 --- !u!1 &88349722
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +330,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.7, y: 36.69}
+  m_Offset: {x: 30.25, y: 36.69}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -449,8 +355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d75f6dcedbe3a42a1ff72408c45ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToChangeTo: MainMenu
-  CurrentScene: AreaOneScene
+  SceneToChangeTo: Credits
+  CurrentScene: FinalAreaScene
   PreviousScene: 
 --- !u!4 &88349725
 Transform:
@@ -516,7 +422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Aren't the holidays a wonderful time of year!
+  input: EggNog appears to be looking at EggBert and is blushing
   delay: 0.05
 --- !u!114 &119396026
 MonoBehaviour:
@@ -983,7 +889,7 @@ GameObject:
   - component: {fileID: 356808486}
   - component: {fileID: 356808485}
   m_Layer: 0
-  m_Name: ShelfDialogue
+  m_Name: TableDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1001,7 +907,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1512656546}
-  - {fileID: 1380178010}
   m_Father: {fileID: 1298058465}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1154,6 +1059,7 @@ GameObject:
   - component: {fileID: 449121529}
   - component: {fileID: 449121528}
   - component: {fileID: 449121527}
+  - component: {fileID: 449121530}
   m_Layer: 0
   m_Name: Table
   m_TagString: NPC
@@ -1280,6 +1186,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &449121530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449121525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d7b447997fc604cb7f4b9ee34680be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 356808483}
 --- !u!1 &460656213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,7 +1331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Mom: Oh sweetheart I forgot to get eggs!'
+  input: 'Mom: Oh sweetheart I got worried about you and came looking for you!'
   delay: 0.05
 --- !u!114 &505219197
 MonoBehaviour:
@@ -1717,6 +1636,100 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &607531794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607531795}
+  - component: {fileID: 607531798}
+  - component: {fileID: 607531797}
+  - component: {fileID: 607531796}
+  m_Layer: 0
+  m_Name: Line4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &607531795
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607531794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1988676648}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &607531796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607531794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: You wish there was a different meaning of Christmas
+  delay: 0.05
+--- !u!114 &607531797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607531794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &607531798
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607531794}
+  m_CullTransparentMesh: 0
 --- !u!1 &637197046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,7 +1898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Mom: Would you be a dear and go back and grab me some?'
+  input: 'Mom: It looks like you''ve had quite the adventure!'
   delay: 0.05
 --- !u!114 &699917897
 MonoBehaviour:
@@ -2061,7 +2074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Get a gift from Santa: $10'
+  input: 'EggFry: After all Christmas is about giving and helping others!'
   delay: 0.05
 --- !u!114 &801046472
 MonoBehaviour:
@@ -2155,7 +2168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Sit on Santas Lap: FREE!!!'
+  input: 'EggFry: I just get so worked up around the holidays'
   delay: 0.05
 --- !u!114 &814990650
 MonoBehaviour:
@@ -2341,6 +2354,7 @@ RectTransform:
   m_Children:
   - {fileID: 505219195}
   - {fileID: 699917895}
+  - {fileID: 1091627608}
   m_Father: {fileID: 1298058465}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2449,7 +2463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: I had to take out another mortage to pay for gifts
+  input: You have now learnt the true meaning of Christmas
   delay: 0.05
 --- !u!114 &905836341
 MonoBehaviour:
@@ -2543,7 +2557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: But at least I got my cousin a new coffee maker!
+  input: It involves going through a large amount of egg puns and egg characters
   delay: 0.05
 --- !u!114 &962448337
 MonoBehaviour:
@@ -2669,6 +2683,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1091627607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1091627608}
+  - component: {fileID: 1091627611}
+  - component: {fileID: 1091627610}
+  - component: {fileID: 1091627609}
+  m_Layer: 0
+  m_Name: Line3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1091627608
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091627607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 894479122}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1091627609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091627607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: 'Mom: These lovely store mascots helped me find a box of eggs so I''m ready
+    to head home if you are'
+  delay: 0.05
+--- !u!114 &1091627610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091627607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1091627611
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091627607}
+  m_CullTransparentMesh: 0
 --- !u!1 &1092064294
 GameObject:
   m_ObjectHideFlags: 0
@@ -2831,7 +2940,7 @@ PrefabInstance:
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 2119999134}
+      objectReference: {fileID: 894479121}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
 --- !u!4 &1169634627 stripped
@@ -2889,7 +2998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Get a picture with Santa: $5'
+  input: 'EggFry: I heard you were after some eggs so I got the gang here to give
+    your mom a box'
   delay: 0.05
 --- !u!114 &1212354538
 MonoBehaviour:
@@ -3035,100 +3145,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4407921609308970686, guid: e5dd6fa57cba5b14abca725c9c546909, type: 3}
   m_PrefabInstance: {fileID: 1298058464}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1380178009
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1380178010}
-  - component: {fileID: 1380178013}
-  - component: {fileID: 1380178012}
-  - component: {fileID: 1380178011}
-  m_Layer: 0
-  m_Name: Line2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1380178010
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380178009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 356808484}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6, y: -7.9055}
-  m_SizeDelta: {x: 791.1163, y: 175.82327}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1380178011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380178009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: Well, cardboard cutouts of food
-  delay: 0.05
---- !u!114 &1380178012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380178009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 56
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1380178013
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380178009}
-  m_CullTransparentMesh: 0
 --- !u!1 &1512656545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,7 +3195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: The shelves are well stocked with a variety of foods!
+  input: A festive dessert has been presented for everyone to enjoy!
   delay: 0.05
 --- !u!114 &1512656548
 MonoBehaviour:
@@ -3487,7 +3503,7 @@ GameObject:
   - component: {fileID: 1651443730}
   - component: {fileID: 1651443729}
   m_Layer: 0
-  m_Name: PosterDialogue
+  m_Name: EggFryDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3508,7 +3524,6 @@ RectTransform:
   - {fileID: 814990648}
   - {fileID: 1212354536}
   - {fileID: 801046470}
-  - {fileID: 79518440}
   m_Father: {fileID: 1298058465}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3601,7 +3616,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 446.53, y: 211.3}
+  m_Offset: {x: 490.1, y: 211.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3612,7 +3627,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20, y: 225.5}
+  m_Size: {x: 109.36, y: 225.5}
   m_EdgeRadius: 0
 --- !u!61 &1659793752
 BoxCollider2D:
@@ -4358,7 +4373,7 @@ PrefabInstance:
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 894479121}
+      objectReference: {fileID: 1651443727}
     - target: {fileID: 8793534502911208143, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 4.26
@@ -4510,7 +4525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Well you''ll hafta go through some eggstreme PUNishment first!'
+  input: 'EggBert: I''ve also got some eggciting news for you!'
   delay: 0.05
 --- !u!114 &1954697681
 MonoBehaviour:
@@ -4601,7 +4616,7 @@ GameObject:
   - component: {fileID: 1988676650}
   - component: {fileID: 1988676649}
   m_Layer: 0
-  m_Name: ShopperDialogue
+  m_Name: EggNogDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4621,6 +4636,7 @@ RectTransform:
   - {fileID: 119396024}
   - {fileID: 905836339}
   - {fileID: 962448335}
+  - {fileID: 607531795}
   m_Father: {fileID: 1298058465}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4811,8 +4827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Enter the next room and we''ll yolk it out to see if you deserve
-    to continue'
+  input: 'EggBert: EggNog said she wants to meet me under the mistletoe later!'
   delay: 0.05
 --- !u!114 &2114183815
 MonoBehaviour:
@@ -4906,7 +4921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Hurry now to go and meet Santa!
+  input: 'EggFry: Hiya chum hope I didn''t scramble you too badly!'
   delay: 0.05
 --- !u!114 &2117813321
 MonoBehaviour:
@@ -4963,7 +4978,7 @@ GameObject:
   - component: {fileID: 2119999137}
   - component: {fileID: 2119999136}
   m_Layer: 0
-  m_Name: EggDialogue
+  m_Name: EggBertDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 90620900}
   - component: {fileID: 90620899}
   m_Layer: 0
-  m_Name: SansaDialogue
+  m_Name: SanstaDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3629,7 +3629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Sansta: Hiya kid I''m sansa!'
+  input: 'Sansta: Hiya kid I''m sansta!'
   delay: 0.05
 --- !u!114 &1121445359
 MonoBehaviour:

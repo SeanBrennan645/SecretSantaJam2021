@@ -1930,6 +1930,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208130, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c400cdfbdb30635409abcccae7511191, type: 3}
     - target: {fileID: 8793534502911208131, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_Name
       value: TobyFox
@@ -5048,17 +5052,41 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208130, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9724e98677159ea49a0357ed2f1e778c, type: 3}
     - target: {fileID: 8793534502911208131, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_Name
       value: Sansta
       objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Size.x
+      value: 3.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Size.y
+      value: 4.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208140, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -602
+      value: -581.1
       objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 318.4
+      value: 289.3
       objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5095,6 +5123,14 @@ PrefabInstance:
     - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793534502911208141, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue

@@ -972,7 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5d3371b143579438980eed2925a17a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 4
+  healAmount: 7
   currentHealth: 30
   maxHealth: 30
   isDead: 0

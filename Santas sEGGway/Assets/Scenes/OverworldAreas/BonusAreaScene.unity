@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 90620900}
   - component: {fileID: 90620899}
   m_Layer: 0
-  m_Name: MomDialogue
+  m_Name: SansaDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,6 +155,9 @@ RectTransform:
   m_Children:
   - {fileID: 1121445357}
   - {fileID: 292451609}
+  - {fileID: 165893886}
+  - {fileID: 421605197}
+  - {fileID: 1646272376}
   m_Father: {fileID: 1643947534}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -525,6 +528,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &165893885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165893886}
+  - component: {fileID: 165893889}
+  - component: {fileID: 165893888}
+  - component: {fileID: 165893887}
+  m_Layer: 0
+  m_Name: Line3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &165893886
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165893885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 90620898}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &165893887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165893885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: 'Sansta: issues I was created and brought here instead'
+  delay: 0.05
+--- !u!114 &165893888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165893885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: add6710c8d15a484baa72bc48ca0d7f8, type: 3}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &165893889
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165893885}
+  m_CullTransparentMesh: 0
 --- !u!1 &190697140
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,7 +918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: I had to take out another mortage to pay for gifts
+  input: Which is funny seeing how it's Christmas
   delay: 0.05
 --- !u!114 &214120510
 MonoBehaviour:
@@ -915,7 +1012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Well, cardboard cutouts of food
+  input: You can hear the sounds of bones trouseling
   delay: 0.05
 --- !u!114 &227665671
 MonoBehaviour:
@@ -1009,7 +1106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Mom: Would you be a dear and go back and grab me some?'
+  input: 'Sansta: There was supposed to be another guy here instead of me but due
+    to potential copyright'
   delay: 0.05
 --- !u!114 &292451611
 MonoBehaviour:
@@ -1032,7 +1130,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: add6710c8d15a484baa72bc48ca0d7f8, type: 3}
     m_FontSize: 10
     m_FontStyle: 1
     m_BestFit: 1
@@ -1148,7 +1246,7 @@ GameObject:
   - component: {fileID: 347176133}
   - component: {fileID: 347176132}
   m_Layer: 0
-  m_Name: ShelfDialogue
+  m_Name: GiftsDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1719,6 +1817,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &421605196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 421605197}
+  - component: {fileID: 421605200}
+  - component: {fileID: 421605199}
+  - component: {fileID: 421605198}
+  m_Layer: 0
+  m_Name: Line4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &421605197
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421605196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 90620898}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &421605198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421605196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: 'Sansta: Hey sometimes there''s budget issues and guys like me still gotta
+    make a living'
+  delay: 0.05
+--- !u!114 &421605199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421605196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: add6710c8d15a484baa72bc48ca0d7f8, type: 3}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &421605200
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421605196}
+  m_CullTransparentMesh: 0
 --- !u!1 &451710082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2043,7 +2236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: The shelves are well stocked with a variety of foods!
+  input: You lightly shook one of the presents
   delay: 0.05
 --- !u!114 &503488226
 MonoBehaviour:
@@ -2137,7 +2330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Well you''ll hafta go through some eggstreme PUNishment first!'
+  input: 'EggNog: Although we''ll still hafta fight for the game to progress'
   delay: 0.05
 --- !u!114 &546614646
 MonoBehaviour:
@@ -2191,9 +2384,11 @@ GameObject:
   m_Component:
   - component: {fileID: 581548762}
   - component: {fileID: 581548763}
+  - component: {fileID: 581548765}
+  - component: {fileID: 581548764}
   m_Layer: 0
   m_Name: XmasTree
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2263,6 +2458,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &581548764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581548761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d7b447997fc604cb7f4b9ee34680be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 979809076}
+--- !u!61 &581548765
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581548761}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.6}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.39, y: 6.12}
+    newSize: {x: 5.39, y: 6.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.03, y: 0.91}
+  m_EdgeRadius: 0
 --- !u!1 &650690847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,6 +2579,100 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &699612036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 699612037}
+  - component: {fileID: 699612040}
+  - component: {fileID: 699612039}
+  - component: {fileID: 699612038}
+  m_Layer: 0
+  m_Name: Line4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &699612037
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699612036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1019811127}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &699612038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699612036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: Almost as though this was a badly thought out game
+  delay: 0.05
+--- !u!114 &699612039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699612036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &699612040
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699612036}
+  m_CullTransparentMesh: 0
 --- !u!1 &727146666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,9 +2861,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 831502489}
+  - component: {fileID: 831502493}
+  - component: {fileID: 831502492}
+  - component: {fileID: 831502491}
+  - component: {fileID: 831502490}
   m_Layer: 0
   m_Name: Gifts
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2580,6 +2912,97 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &831502490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831502488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d7b447997fc604cb7f4b9ee34680be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 347176130}
+--- !u!61 &831502491
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831502488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -189.2, y: 288.8}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 207.4, y: 42.3}
+  m_EdgeRadius: 0
+--- !u!61 &831502492
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831502488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 215.4, y: 288.8}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 207.4, y: 42.3}
+  m_EdgeRadius: 0
+--- !u!61 &831502493
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831502488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.86, y: 322.58}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 603.6, y: 20}
+  m_EdgeRadius: 0
 --- !u!1 &906608618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2662,100 +3085,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &913524620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 913524621}
-  - component: {fileID: 913524624}
-  - component: {fileID: 913524623}
-  - component: {fileID: 913524622}
-  m_Layer: 0
-  m_Name: Line3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &913524621
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913524620}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 979809077}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6, y: -7.9055}
-  m_SizeDelta: {x: 791.1163, y: 175.82327}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &913524622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913524620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: 'Get a picture with Santa: $5'
-  delay: 0.05
---- !u!114 &913524623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913524620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 56
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &913524624
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913524620}
-  m_CullTransparentMesh: 0
 --- !u!4 &936358032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5639063771515696858, guid: b73ba8e38f44bca4cbfa3b0f4bde2911, type: 3}
@@ -2856,7 +3185,7 @@ GameObject:
   - component: {fileID: 979809079}
   - component: {fileID: 979809078}
   m_Layer: 0
-  m_Name: PosterDialogue
+  m_Name: TreeDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2875,9 +3204,6 @@ RectTransform:
   m_Children:
   - {fileID: 1254587169}
   - {fileID: 1680568364}
-  - {fileID: 913524621}
-  - {fileID: 1189403360}
-  - {fileID: 1818627723}
   m_Father: {fileID: 1643947534}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2954,7 +3280,7 @@ GameObject:
   - component: {fileID: 1019811129}
   - component: {fileID: 1019811128}
   m_Layer: 0
-  m_Name: ShopperDialogue
+  m_Name: TobyDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2974,6 +3300,7 @@ RectTransform:
   - {fileID: 1514902131}
   - {fileID: 214120508}
   - {fileID: 1306312564}
+  - {fileID: 699612037}
   m_Father: {fileID: 1643947534}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3302,7 +3629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Mom: Oh sweetheart I forgot to get eggs!'
+  input: 'Sansta: Hiya kid I''m sansa!'
   delay: 0.05
 --- !u!114 &1121445359
 MonoBehaviour:
@@ -3325,7 +3652,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: add6710c8d15a484baa72bc48ca0d7f8, type: 3}
     m_FontSize: 10
     m_FontStyle: 1
     m_BestFit: 1
@@ -3484,7 +3811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d75f6dcedbe3a42a1ff72408c45ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToChangeTo: BattleScene
+  SceneToChangeTo: EggNogBattle
   CurrentScene: AreaOneScene
   PreviousScene: 
 --- !u!4 &1160476039
@@ -3670,100 +3997,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1189403359
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1189403360}
-  - component: {fileID: 1189403363}
-  - component: {fileID: 1189403362}
-  - component: {fileID: 1189403361}
-  m_Layer: 0
-  m_Name: Line4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1189403360
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189403359}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 979809077}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6, y: -7.9055}
-  m_SizeDelta: {x: 791.1163, y: 175.82327}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1189403361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189403359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: 'Get a gift from Santa: $10'
-  delay: 0.05
---- !u!114 &1189403362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189403359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 56
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1189403363
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189403359}
-  m_CullTransparentMesh: 0
 --- !u!1 &1207081563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3797,6 +4030,7 @@ RectTransform:
   - {fileID: 1716855150}
   - {fileID: 546614644}
   - {fileID: 1304164900}
+  - {fileID: 1903242309}
   m_Father: {fileID: 1643947534}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4069,7 +4303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Hurry now to go and meet Santa!
+  input: You look up at the bright glowing christmas tree
   delay: 0.05
 --- !u!114 &1254587171
 MonoBehaviour:
@@ -4245,8 +4479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: Enter the next room and we''ll yolk it out to see if you deserve
-    to continue'
+  input: 'EggNog: Now excuse me as I get back into character'
   delay: 0.05
 --- !u!114 &1304164902
 MonoBehaviour:
@@ -4340,7 +4573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: But at least I got my cousin a new coffee maker!
+  input: Then again there does seem to be a heavy egg theme here
   delay: 0.05
 --- !u!114 &1306312566
 MonoBehaviour:
@@ -4473,7 +4706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: Aren't the holidays a wonderful time of year!
+  input: Hiya I'm Toby the Fox! I'm here to act as an Easter Egg
   delay: 0.05
 --- !u!114 &1514902133
 MonoBehaviour:
@@ -4865,6 +5098,100 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4407921609308970686, guid: e5dd6fa57cba5b14abca725c9c546909, type: 3}
   m_PrefabInstance: {fileID: 1643947533}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1646272375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1646272376}
+  - component: {fileID: 1646272379}
+  - component: {fileID: 1646272378}
+  - component: {fileID: 1646272377}
+  m_Layer: 0
+  m_Name: Line5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1646272376
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646272375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 90620898}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1646272377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646272375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: 'Sansta: Besides this way there''s no chance you''ll have a bad time'
+  delay: 0.05
+--- !u!114 &1646272378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646272375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: add6710c8d15a484baa72bc48ca0d7f8, type: 3}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1646272379
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646272375}
+  m_CullTransparentMesh: 0
 --- !u!1 &1654938729
 GameObject:
   m_ObjectHideFlags: 0
@@ -4997,7 +5324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'Sit on Santas Lap: FREE!!!'
+  input: The decorations are badly painted onto it
   delay: 0.05
 --- !u!114 &1680568366
 MonoBehaviour:
@@ -5135,7 +5462,7 @@ PrefabInstance:
     - target: {fileID: 8793534502911208142, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 1019811126}
+      objectReference: {fileID: 90620897}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf5568208b566074bbbfab2bfe42758b, type: 3}
 --- !u!4 &1680958919 stripped
@@ -5260,7 +5587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: 'EggBert: What''s that kid you''re after eggs?!?'
+  input: 'EggNog: Well done on finding the bonus area of the game'
   delay: 0.05
 --- !u!114 &1716855152
 MonoBehaviour:
@@ -5487,100 +5814,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b73ba8e38f44bca4cbfa3b0f4bde2911, type: 3}
---- !u!1 &1818627722
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1818627723}
-  - component: {fileID: 1818627726}
-  - component: {fileID: 1818627725}
-  - component: {fileID: 1818627724}
-  m_Layer: 0
-  m_Name: Line5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1818627723
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818627722}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 979809077}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6, y: -7.9055}
-  m_SizeDelta: {x: 791.1163, y: 175.82327}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1818627724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818627722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: 'Experience the joy of being a child again: $5,000'
-  delay: 0.05
---- !u!114 &1818627725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818627722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 6
-    m_MaxSize: 56
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1818627726
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818627722}
-  m_CullTransparentMesh: 0
 --- !u!1 &1826370123
 GameObject:
   m_ObjectHideFlags: 0
@@ -5663,6 +5896,100 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1903242308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1903242309}
+  - component: {fileID: 1903242312}
+  - component: {fileID: 1903242311}
+  - component: {fileID: 1903242310}
+  m_Layer: 0
+  m_Name: Line4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1903242309
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903242308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1207081564}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.6, y: -7.9055}
+  m_SizeDelta: {x: 791.1163, y: 175.82327}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1903242310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903242308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5460676308dfeb0478b962719a39e4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: 'EggNog: *cough cough* EGGNOG!!!'
+  delay: 0.05
+--- !u!114 &1903242311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903242308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 56
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1903242312
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903242308}
+  m_CullTransparentMesh: 0
 --- !u!1 &1936427216
 GameObject:
   m_ObjectHideFlags: 0
